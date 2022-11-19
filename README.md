@@ -33,8 +33,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/qr-component-with-shadow-15htjPWX73)
-- Live Site URL: [Add live site URL here](https://globel99-dev.github.io/qr-code-component-main/)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/qr-component-with-shadow-15htjPWX73)
+- Live Site URL: [Live site URL](https://globel99-dev.github.io/qr-code-component-main/)
 
 ## My process
 
