@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
 body {
-  margin: 0;
+  margin: 0px;
   padding: 0;
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
   flex-flow: column;
   justify-content: center;
@@ -15,7 +15,7 @@ body {
   display: 80%;
   border: 12px solid hsl(0, 0%, 100%);
   background-color: hsl(0, 0%, 100%);
-  box-shadow: 5px 5px 2px gray;
+  /*box-shadow: 5px 5px 2px gray;*/
 }
 img,
 p,
@@ -41,16 +41,11 @@ p {
   color: hsl(220, 15%, 55%);
 }
 .attribution {
-  font-size: 0.6em;
+  font-size: 1em;
   text-align: center;
   padding-top: 2em;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
   text-decoration: none;
-}
-@media screen and (min-width: 375px) {
-  .main {
-    max-width: 10%;
-  }
 }
