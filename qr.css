@@ -16,7 +16,7 @@ body {
   margin: 10px;
   padding: 20px;
   /* Fixed width to avoid text changing size */
-  min-width: 375px;
+  min-width: 310px;
   max-width: 500px;
   background-color: hsl(0, 0%, 100%);
   box-shadow: 6px 6px 2px gray;
