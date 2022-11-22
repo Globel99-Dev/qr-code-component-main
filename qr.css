@@ -2,47 +2,40 @@
 body {
   margin: 0;
   padding: 0;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-flow: column;
   justify-content: center;
   align-items: center;
   background-color: hsl(212, 45%, 89%);
   font-family: "Outfit", sans-serif;
-  font-size: 1em;
+  box-sizing: border-box;
 }
 .main {
-  display: 80%;
-  border: 12px solid hsl(0, 0%, 100%);
+  margin: 10px;
+  max-width: 33%;
+  padding: 20px;
+  /*border: 12px solid hsl(0, 0%, 100%);*/
   background-color: hsl(0, 0%, 100%);
+  text-align: center;
   /*box-shadow: 5px 5px 2px gray;*/
-}
-img,
-p,
-h1 {
-  width: 100%;
 }
 .main,
 img {
   border-radius: 15px;
 }
-h1,
-p {
-  text-align: center;
-}
 h1 {
   color: hsl(218, 44%, 22%);
   font-weight: 700;
-  font-size: 1.2em;
+  font-size: 2em;
 }
 p {
   font-weight: 400;
-  font-size: 0.9em;
+  font-size: 1em;
   color: hsl(220, 15%, 55%);
 }
 .attribution {
   font-size: 1em;
-  text-align: center;
   padding-top: 2em;
 }
 .attribution a {
