@@ -1,4 +1,3 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
 body {
   margin: 0;
@@ -16,8 +15,8 @@ body {
   margin: 10px;
   padding: 20px;
   /* Fixed width to avoid text changing size */
-  min-width: 310px;
-  max-width: 500px;
+  /* min-width: 310px; Thanks Escarabote, you was right */
+  max-width: 400px;
   background-color: hsl(0, 0%, 100%);
   box-shadow: 6px 6px 2px gray;
   text-align: center;
@@ -26,7 +25,8 @@ img {
   width: 100%;
   display: block;
 }
-img, .main {
+img,
+.main {
   border-radius: 15px;
 }
 h1 {
@@ -36,7 +36,7 @@ h1 {
 }
 p {
   font-weight: 400;
-  font-size: 1em;
+  font-size: 0.9375em;
   color: hsl(220, 15%, 55%);
 }
 .attribution {
