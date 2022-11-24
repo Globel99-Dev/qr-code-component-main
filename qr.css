@@ -12,10 +12,10 @@ body {
   box-sizing: border-box;
 }
 .main {
-  margin: 10px;
-  padding: 20px;
+  margin: 0.625em;
+  padding: 1.25em;
+  /* min-width: 310px; This broke view on mobile */
   /* Fixed width to avoid text changing size */
-  /* min-width: 310px; Thanks Escarabote, you was right */
   max-width: 400px;
   background-color: hsl(0, 0%, 100%);
   box-shadow: 6px 6px 2px gray;
@@ -27,7 +27,7 @@ img {
 }
 img,
 .main {
-  border-radius: 15px;
+  border-radius: 0.9375em;
 }
 h1 {
   color: hsl(218, 44%, 22%);
@@ -40,8 +40,8 @@ p {
   color: hsl(220, 15%, 55%);
 }
 .attribution {
-  font-size: 0.7em;
-  padding-top: 0.5em;
+  font-size: 0.7rem;
+  padding-top: 0.5rem;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
